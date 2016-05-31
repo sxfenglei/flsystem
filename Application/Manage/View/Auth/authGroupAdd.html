@@ -1,0 +1,73 @@
+<extend name="Index:index" />
+<block name="style">
+</block>
+<block name="breadcrumb">
+<li><a href="{:U('Index/index')}"><i class="fa fa-dashboard"></i> 主页面</a></li>
+<li class="active">创建应用管理者角色</li>
+</block>
+<block name="content">
+<form action="{:U('Auth/authGroupAdd')}" method="post">
+<!-- Input -->
+<div class="box box-info">
+  <div class="box-header with-border">
+    <h3 class="box-title">角色名称</h3>
+  </div>
+  <div class="box-body">
+    <div class="row">
+      <div class="col-md-6">
+          <input type="text" name="title" required="required" title="角色名称不可为空" class="form-control" placeholder="请填写角色名称">
+      </div>
+      <div class="col-md-4">
+        应用管理员角色名称
+      </div>
+    </div>
+    <br> 
+
+    <h4>选择权限</h4>
+    <div class="row">
+      <div class="col-md-6 quanxian">
+          {$authRuleList}
+      </div>
+      <div class="col-md-4">
+        
+      </div>
+    </div>
+    <br>
+ 
+    </div>
+    <hr>
+
+    <input type="hidden" name="authRuleIds" id="authRuleIds" value="">
+    <input type="hidden" name="authRuleStr" id="authRuleStr" value="">
+ 
+    <div class="row">
+      <div class="col-md-6">
+          <button type="submit" class="btn btn-primary">创建</button>
+          <a href="javascript:history.go(-1)" class="btn btn-default">返回</a>
+      </div>
+      <div class="col-md-4">
+        
+      </div>
+    </div>
+    <br>
+   
+  </div><!-- /.box-body -->
+</div><!-- /.box --> 
+</form> 
+</block>
+<block name="script"> 
+<script type="text/javascript"> 
+$(function(){
+  $('input[type="checkbox"]').on("click",function(){
+    var arIds = new Array();
+    var arStr = new Array();
+    $('.quanxian').find('input[type="checkbox"]:checked').each(function(k,v){
+      arIds.push($(v).val());
+      arStr.push($(v).data("str"));
+    });
+    $('#authRuleIds').val(arIds.join(","));
+    $('#authRuleStr').val(arStr.join(","));
+  });
+});
+</script>
+</block>

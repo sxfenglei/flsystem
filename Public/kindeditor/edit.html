@@ -1,0 +1,35 @@
+
+<link rel="stylesheet" href="themes/default/default.css" />
+
+
+<form>
+	<textarea name="content" style="width:800px;height:400px;visibility:hidden;">KindEditor</textarea> 
+</form>
+
+
+<script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="kindeditor-all-min.js" type="text/javascript" charset="utf-8"></script>
+<script src="lang/zh-CN.js" type="text/javascript" charset="utf-8"></script>
+<script>
+/* 默认模式
+KindEditor.ready(function(K) {
+	K.create('textarea[name="content"]', {
+		allowFileManager : true
+	});
+});
+*/
+
+/*简单模式*/
+KindEditor.ready(function(K) {
+	editor = K.create('textarea[name="content"]', {
+		resizeType : 1,
+		allowPreviewEmoticons : false,
+		allowImageUpload : false,
+		items : [
+			'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+			'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+			'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+	});
+});
+
+</script>
