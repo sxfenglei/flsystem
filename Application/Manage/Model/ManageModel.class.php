@@ -28,4 +28,20 @@ class ManageModel extends CommonModel {
 			return false;
 		}
 	}
+
+	/**
+	* 修改密码
+	*/
+	public function alterPwd($resManage,$oldpwd,$newpwd){
+		if(empty($resManage) || empty($oldpwd)||empty($newpwd)){
+			return false;
+		} 
+		//修改密码
+		$data['login_pwd'] = pwdEncrypt($newpwd,$resManage['salt']);
+		if(false !== $this->where(array('id'=>array('eq',$resManage['id'])))->save($data)){
+			return true;
+		}else{
+			return false;
+		}
+	}
 }

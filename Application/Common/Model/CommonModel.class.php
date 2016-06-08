@@ -21,7 +21,7 @@ class CommonModel extends Model {
 	*/
 	public function getPageList($map=array('status'=>array('egt',0)),$sort="create_time desc"){
 		$res['list'] = $this->where($map)->page($_GET['p'],C('PAGE_NUM'))->select();
-		$res['list'] = $this->where($map)->limit(C('PAGE_NUM'))->page($_GET['p'])->select();
+		// $res['list'] = $this->where($map)->limit(C('PAGE_NUM'))->page($_GET['p'])->select();
 		$count = $this->where($map)->count();
 		$page = new \Think\Page($count,C('PAGE_NUM'));
 		$res['show'] = $page->show();
@@ -30,12 +30,17 @@ class CommonModel extends Model {
 
 	/**
 	* 获取所有数据
+	* $isTree 是否返回tree数据
 	*/
-	public function getList($map=array(),$sort="create_time desc"){
-			if(count($map)<1){
+	public function getList($isTree=false,$map=array(),$sort=''){
+			if(count($map)<1){	
 				$map['status'] = array('eq',1);
 			}
-			return $this->where($map)->order($sort)->select();
+			$res = $this->where($map)->order($sort)->select();
+			if($isTree){
+				return convertTree($res);
+			}
+			return $res;
 	}
 	
 	/**
@@ -50,7 +55,7 @@ class CommonModel extends Model {
 			$where['status'] = array('eq',1);
 			$where['parent_id'] = array('eq',$rootRes[0]['id']);
 			$res = $this->where($where)->select();
-			return getCategoryTree(array_merge($rootRes,$res));
+			return convertTree(array_merge($rootRes,$res));
 	}
 
 

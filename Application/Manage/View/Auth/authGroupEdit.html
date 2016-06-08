@@ -3,10 +3,10 @@
 </block>
 <block name="breadcrumb">
 <li><a href="{:U('Index/index')}"><i class="fa fa-dashboard"></i> 主页面</a></li>
-<li class="active">修改应用管理者角色</li>
+<li class="active">修改角色</li>
 </block>
 <block name="content">
-<form action="{:U('Auth/authGroupEdit')}" method="post">
+<form action="{:U('AuthGroup/authGroupEdit')}" method="post">
 <!-- Input -->
 <div class="box box-info">
   <div class="box-header with-border">
@@ -26,7 +26,20 @@
     <h4>选择权限</h4>
     <div class="row">
       <div class="col-md-6 quanxian">
-          {$authRuleList}
+          <table class="table table-bordered"> 
+                <php>
+                  foreach($authRuleList as $key=>$val){
+                    $tag = '';
+                    foreach($authRule as $k=>$v){
+                      if($val['id'] == $v){
+                        $tag = 'checked';
+                      }
+                    }
+                    
+                    echo '<tr><td>'.$val['html'].'<input type="checkbox" value="'.$val['id'].'" data-str="'.$val['title'].'" '.$tag.'/>'.$val['title'].'</td></tr>';
+                  } 
+                </php> 
+            </table> 
       </div>
       <div class="col-md-4">
         

@@ -1,0 +1,1386 @@
+[ 2016-05-31T21:59:15+08:00 ] ::1 /flsystem/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-05-31T22:04:41+08:00 ] ::1 /flsystem/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-05-31T22:06:08+08:00 ] ::1 /flsystem/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2016-05-31T22:06:18+08:00 ] ::1 /flsystem/index.php/Manage/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+
+[ 2016-05-31T22:06:18+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-05-31T22:06:18+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-05-31T22:06:18+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2016-05-31T22:06:21+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-05-31T22:06:21+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-05-31T22:07:01+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-05-31T22:07:01+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-05-31T22:07:08+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-05-31T22:07:08+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2016-05-31T22:07:18+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-05-31T22:07:21+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-05-31T22:07:24+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-05-31T22:07:30+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-05-31T22:08:02+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-05-31T22:08:05+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2016-05-31T22:08:08+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-05-31T22:08:09+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-05-31T22:08:16+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-05-31T22:10:12+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-05-31T22:10:15+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2016-05-31T22:10:16+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-05-31T22:10:16+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-05-31T22:10:27+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `fl_manage` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fl_manage` WHERE `login_name` = 'manage' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-05-31T22:10:28+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+
+[ 2016-05-31T22:10:28+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2016-05-31T22:11:50+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-05-31T22:12:03+08:00 ] ::1 /flsystem/index.php/Manage/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-05-31T22:12:03+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+
+[ 2016-05-31T22:12:03+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-05-31T22:12:04+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001629s ]
+
+[ 2016-05-31T22:12:05+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-05-31T22:12:05+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2016-05-31T22:12:14+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `fl_manage` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `fl_manage` WHERE `login_name` = 'manage' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-05-31T22:12:15+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-05-31T22:12:15+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2016-05-31T22:16:38+08:00 ] ::1 /flsystem/index.php/Manage/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-05-31T22:16:38+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-05-31T22:16:38+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-05-31T22:16:38+08:00 ] ::1 /flsystem/index.php/Manage/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+NOTIC: [2048] Creating default object from empty value D:\phpStudy\WWW\flsystem\Application\Manage\Controller\PublicController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-05-31T22:16:46+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `fl_manage` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fl_manage` WHERE `login_name` = 'manage' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-05-31T22:16:47+08:00 ] ::1 /flsystem/index.php/Manage/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+
+[ 2016-05-31T22:16:48+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2016-05-31T22:20:37+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-05-31T22:21:47+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-05-31T22:22:00+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-05-31T22:51:41+08:00 ] ::1 /flsystem/index.php/Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-05-31T22:51:47+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0045s ]
+ERR: Think\Model:getList方法不存在！
+
+[ 2016-05-31T23:01:24+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+ERR: 模板不存在:./Application/Manage/View/Auth/authList.html
+
+[ 2016-05-31T23:01:46+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+ERR: 模板不存在:./Application/Manage/View/Auth/authList.html
+
+[ 2016-05-31T23:01:48+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+ERR: 模板不存在:./Application/Manage/View/Auth/authList.html
+
+[ 2016-05-31T23:02:32+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2016-05-31T23:02:39+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `fl_auth_group` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 74 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 75 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: search D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 130 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2016-05-31T23:02:44+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-05-31T23:03:10+08:00 ] ::1 /flsystem/index.php/Manage/Admin/authRuleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+
+[ 2016-05-31T23:05:05+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-05-31T23:05:21+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authRuleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0046s ]
+SQL: INSERT INTO `fl_auth_rule` (`parent_id`,`name`,`title`,`type`,`status`) VALUES ('0','/Manage/','超管模块','1','1') [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+
+[ 2016-05-31T23:05:39+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-05-31T23:05:48+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authRuleAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0053s ]
+SQL: INSERT INTO `fl_auth_rule` (`parent_id`,`name`,`title`,`type`,`status`) VALUES ('0','/Manage/','超管','1','1') [ RunTime:0.0021s ]
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+
+[ 2016-05-31T23:05:58+08:00 ] ::1 /flsystem/index.php/Manage/Auth/del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0044s ]
+SQL: DELETE FROM `fl_auth_rule` WHERE `id` = 23 [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+
+[ 2016-05-31T23:06:12+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2016-05-31T23:06:17+08:00 ] ::1 /flsystem/index.php/Manage/Auth/del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0048s ]
+SQL: DELETE FROM `fl_auth_rule` WHERE `id` = 24 [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+
+[ 2016-05-31T23:06:19+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\flsystem\Application\Manage\Controller\AuthController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-05-31T23:06:34+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `fl_auth_group` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 74 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 75 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: search D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 130 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-05-31T23:06:35+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2016-05-31T23:06:45+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `fl_auth_group` [ RunTime:0.0046s ]
+SQL: INSERT INTO `fl_auth_group` (`title`,`status`,`rules`,`rules_str`) VALUES ('传输','1','1,2,3','主模块,默认控制器,主页面') [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-05-31T23:06:46+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `fl_auth_group` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 74 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 75 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: search D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 130 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-05-31T23:06:52+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupEdit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `fl_auth_group` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `fl_auth_group` WHERE `id` = '6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `fl_auth_rule` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `fl_auth_rule`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-05-31T23:06:56+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `fl_auth_group` [ RunTime:0.0048s ]
+SQL: UPDATE `fl_auth_group` SET `title`='传输',`rules`='1,2,3,10,11,12,13',`rules_str`='主模块,默认控制器,主页面,店铺管理,店铺列表,创建店铺,编辑店铺' WHERE `id` = '6' [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-05-31T23:06:57+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `fl_auth_group` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 74 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 75 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: search D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 130 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-05-31T23:07:01+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupDel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `fl_auth_group` [ RunTime:0.0044s ]
+SQL: DELETE FROM `fl_auth_group` WHERE `id` = 6 [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given D:\phpStudy\WWW\flsystem\Application\Common\Common\function.php 第 315 行.
+
+[ 2016-05-31T23:07:20+08:00 ] ::1 /flsystem/index.php/Manage/Auth/authGroupList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `fl_auth_group` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 74 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\flsystem\Application\Manage\Model\AuthGroupModel.class.php 第 75 行.
+SQL: SELECT * FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fl_auth_group` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: search D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 130 行.
+NOTIC: [8] Undefined variable: list D:\phpStudy\WWW\flsystem\Application\Runtime\Cache\Manage\71ea50d4822615895b6881417485f427.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+

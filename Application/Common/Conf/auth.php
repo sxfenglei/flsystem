@@ -13,8 +13,8 @@ return array(
         'AUTH_GROUP' => 'fl_auth_group', 				//用户组数据表
         'AUTH_GROUP_ACCESS' => 'fl_auth_group_access', 	//用户组拥有的权限表
         'AUTH_RULE' => 'fl_auth_rule', 					//权限规则表
-        'AUTH_USER' => 'fl_admin'						//用户信息表
+        'AUTH_USER' => 'fl_manage'						//用户信息表
     ),
     //指定拥有全部权限的超级管理员id.可以设置多个值,如array('1','2','3'),
-    //'ADMINISTRATOR'=>array('1'),
+    'ADMINISTRATOR'=>array('1'),
 );

@@ -1,0 +1,173 @@
+<extend name="Index:index" />
+<block name="breadcrumb">
+<li><a href="{:U('Index/index')}"><i class="fa fa-dashboard"></i> 主页面</a></li>
+<li class="active">权限规则列表</li>
+</block>
+<block name="content">
+<div class="row">
+  <div class="col-md-12">
+
+          <a href="#top"></a>
+          <div class="box">
+            <div class="box-header with-border">
+              <div class="row">
+                <div class="col-md-1" style="text-align:right;">
+                  <strong>父级:</strong>
+                </div>
+                <div class="col-md-3">
+                  <select class="form-control" id="parentId" name="parent_id">
+                    <option value="0">[顶级]</option>
+                    <volist name="list" id="vo">
+                    <option value="{$vo.id}">{$vo.html}{$vo.title}</option>
+                    </volist>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <input type="text" name="name" id="name" class="form-control" placeholder="控制器 /Admin/Index/index/ ">
+                </div>
+                <div class="col-md-2">
+                  <input type="text" name="title" id="title" class="form-control" placeholder="中文描述 后台主页面 ">
+                </div>
+                <div class="col-md-1">
+                  <button  type="button" id="addBtn" class="btn btn-success">添加</button>
+                  <button  type="button" id="editBtn" class="btn btn-success" data-id="" style="display:none">修改</button>
+                </div>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <table class="table table-bordered">
+                  <tr>
+                    <th style="width: 5rem">编号</th>
+                    <th>权限规则名称</th>
+                    <th>权限规则</th>
+                    <th>状态</th>
+                    <th style="width: 15rem">操作</th>
+                  </tr>
+                  <volist name="list" id="vo">
+                  <tr id="tr{$vo.id}">
+                    <td>{$vo.id}</td>
+                    <td>{$vo.html}{$vo.title}</td>
+                    <td>{$vo.name}</td>
+                    <td>
+                      <if condition="$vo.status eq 0">
+                        <a href="javascript:void(0)" onclick="statusFun({$vo.id},1)"<span class="label label-warning">禁用</span></a>
+                      <elseif condition="$vo.status eq 1" />
+                        <a href="javascript:void(0)" onclick="statusFun({$vo.id},0)"<span class="label label-success">正常</span></a>
+                      <else />
+                        未知
+                      </if>
+                    </td>
+                    <td>{$vo.condition}</td>
+                    <td>
+                      <div class="btn-group">
+                          <!-- <a href="{:U('AuthRule/edit',array('id'=>$vo['id']))}" class="btn btn-success">编辑</a> -->
+                          <button type="button" onclick="editFun({$vo.id},{$vo.parent_id})" class="btn btn-success">编辑</button>
+                          <button type="button" onclick="delFun({$vo.id})" class="btn btn-danger">删除</button>
+                      </div>
+                    </td>
+                  </tr>
+                  </volist>
+                </table> 
+
+            </div>
+
+  </div><!-- /.col -->
+</div><!-- /.row -->
+</block>
+<block name="script">
+<script type="text/javascript">
+//删除
+function delFun(id){
+  if(!confirm('确认删除吗?')){
+    return false;
+  }
+  $.post("{:U('AuthRule/virtualDel')}",{'id':id},function(data){
+    // eval("var data="+data);
+    if(data.code == 0){
+      window.location.reload();
+    }else if(data.msg != 'undefined'){
+      alert(data.msg);
+    }else{
+      alert('系统繁忙');
+    }
+  });
+}
+//状态
+function statusFun(id,v){
+  var str = '';
+  if(v==1){
+    str = '确认启用吗?';
+  }
+  if(v==0){
+    str = '确认禁用吗?';
+  }
+  if(!confirm(str)){
+    return false;
+  }
+  $.post("{:U('AuthRule/changeStatus')}",{'id':id,'v':v},function(data){
+    if(data.code == "0"){
+      window.location.reload();
+    }else if(data.msg != 'undefined'){
+      alert(data.msg);
+    }else{
+      alert('系统繁忙');
+    }
+  });
+}
+//编辑
+function editFun(id,parentId){
+    var tr = $("#tr"+id);
+    var title = $(tr).find('td:nth-child(2)').html();
+    var name = $(tr).find('td:nth-child(3)').html();
+    $('#parentId').val(parentId);
+    $('#name').val(name);
+    $('#title').val(title.replace(/\||\-/g,''));
+    $('#addBtn').hide();
+    $('#editBtn').attr('data-id',id).show();
+    $('.box-body').hide();
+}
+//添加
+$(function(){
+  //add
+  $('#addBtn').click(function(){
+    var postData = {
+      'parentId':$('#parentId').val(),
+      'name':$('#name').val(),
+      'title':$('#title').val(),
+    }
+
+    $.post("{:U('AuthRule/add')}",postData,function(data){
+        if(data.code == 0){
+          window.location.reload();
+        }else if(data.msg != 'undefined'){
+          alert(data.msg);
+        }else{
+          alert('系统繁忙');
+        }
+    });
+  });
+
+  //edit
+  $('#editBtn').click(function(){
+    var postData = {
+      'id':$('#editBtn').attr('data-id'),
+      'parentId':$('#parentId').val(),
+      'name':$('#name').val(),
+      'title':$('#title').val(),
+    }
+
+    $.post("{:U('AuthRule/edit')}",postData,function(data){
+        if(data.code == 0){
+          window.location.reload();
+        }else if(data.msg != 'undefined'){
+          alert(data.msg);
+        }else{
+          alert('系统繁忙');
+        }
+    });
+  });
+
+});
+</script>
+</block>

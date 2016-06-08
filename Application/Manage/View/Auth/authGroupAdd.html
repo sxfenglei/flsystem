@@ -3,10 +3,10 @@
 </block>
 <block name="breadcrumb">
 <li><a href="{:U('Index/index')}"><i class="fa fa-dashboard"></i> 主页面</a></li>
-<li class="active">创建应用管理者角色</li>
+<li class="active">创建角色</li>
 </block>
 <block name="content">
-<form action="{:U('Auth/authGroupAdd')}" method="post">
+<form action="{:U('AuthGroup/authGroupAdd')}" method="post">
 <!-- Input -->
 <div class="box box-info">
   <div class="box-header with-border">
@@ -26,7 +26,17 @@
     <h4>选择权限</h4>
     <div class="row">
       <div class="col-md-6 quanxian">
-          {$authRuleList}
+          <table class="table table-bordered"> 
+              <volist name="authRuleList" id="vo">
+              <tr>
+                <td>
+                  {$vo.html}
+                  <input type="checkbox" name="" value="{$vo.id}" data-str="{$vo.title}">
+                  {$vo.title}
+                </td>
+              </tr>
+              </volist>
+            </table> 
       </div>
       <div class="col-md-4">
         
@@ -59,6 +69,8 @@
 <script type="text/javascript"> 
 $(function(){
   $('input[type="checkbox"]').on("click",function(){
+    console.log($(this).parents().html());
+    //
     var arIds = new Array();
     var arStr = new Array();
     $('.quanxian').find('input[type="checkbox"]:checked').each(function(k,v){

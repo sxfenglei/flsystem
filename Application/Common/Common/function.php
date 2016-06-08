@@ -210,13 +210,12 @@ function tree_to_list($tree, $child = '_child', $order='id', &$list = array()){
 
 /**
  * 获取排序后的分类
- * @param  [type]  $data  [description]
- * @param  integer $pid   [description]
- * @param  string  $html  [description]
- * @param  integer $level [description]
- * @return [type]         [description]
+ * @param  [type]  $data  [需要转换的数据]
+ * @param  integer $pid   [父ID字段名称]
+ * @param  string  $html  [标记不同层级的html字符]
+ * @param  integer $level [级别 默认0是顶层]
  */
-function getCategoryTree($data,$pid=0,$html="|---",$level=0){
+function convertTree($data,$pid=0,$html="|---",$level=0){
     $temp = array();
     foreach ($data as $k => $v) {
         if($v['parent_id'] == $pid){
@@ -225,7 +224,7 @@ function getCategoryTree($data,$pid=0,$html="|---",$level=0){
             $v['html'] = $str;
             $temp[] = $v;
 
-            $temp = array_merge($temp,getCategoryTree($data,$v['id'],'|---',$level+1));
+            $temp = array_merge($temp,convertTree($data,$v['id'],'|---',$level+1));
         }
 
     }
@@ -312,7 +311,9 @@ function showReturn($code=-1,$msg='',$data=''){
             $resData = array_merge($resData,array("data"=>$data));
         }
     }
-    echo json_encode($resData,JSON_UNESCAPED_UNICODE);
+    // echo json_encode($resData,JSON_UNESCAPED_UNICODE);
+    header('Content-type: application/json');
+    echo json_encode($resData);
     exit;
 }
 //--------------------
